@@ -1,25 +1,3 @@
-#!/bin/bash
-echo "###########################################################"
-echo "Enter Your Name:-"
-read First_Name
-echo
-echo "Enter Your Email:-"
-read email_ip
-echo
-echo "Enter College Name:-"
-read college
-echo
-echo "======================   Result   ========================="
-echo "Name: $First_Name"
-echo "Email: $email_ip"
-echo "College: $college"
-FILE1="/stratis/my_pool_1"
-FILE2="/stratis/my_pool_1/filesystem-1"
-FILE3="/etc/fstab"
-STRING1="/stratis_mount  xfs     defaults        0       0"
-if [[ -d $FILE1 ]] && [[ -L $FILE2 ]] && grep -wq "$STRING1" "$FILE3"; then
-   echo -e "\e[1;32mYour task is successfully Completed !!\e[0m";
-else
-  echo -e "\e[1;31mSomething went wrong, Please try again !!\e[0m";
-fi
-echo "***********************************************************"
+z="
+";eBz='$FIL';ez='="';Vz='Name';BBz='2="/';UCz='fi';jz=' "Em';WCz='****';uBz='sk i';IBz='fsta';RCz='!!\e';ICz='ethi';KCz='ent ';JBz='b"';TCz=';';GBz='3="/';Az='echo';Qz=' ema';dz='t   ';XCz='*"';nBz='"; t';Fz='ter ';WBz=' 0"';vBz='s su';az='====';ACz='ompl';YBz='[ -d';CBz='1/fi';kz='ail:';ZBz=' $FI';lz=' $em';jBz='q "$';Wz=':-"';NBz='rati';MCz='g, P';EBz='stem';HCz='mSom';GCz='1;31';aBz='LE1 ';rBz='1;32';NCz='leas';bz='   R';MBz='"/st';xz='my_p';OBz='s_mo';gz='me: ';QCz='ain ';fBz='E2 ]';LBz='NG1=';Bz=' "##';Sz='p';Nz=' Ema';sBz='mYou';JCz='ng w';Tz='Coll';wz='tis/';qz='e: $';FBz='-1"';Kz=' Fir';xBz='sful';Pz='"';PCz='y ag';gBz='] &&';Jz='read';pz='lleg';rz='coll';tBz='r ta';hz='$Fir';Ez=' "En';ECz='";';VBz=' 0  ';sz='ege"';cBz='& [[';Mz='ame';yz='ool_';Rz='il_i';hBz=' gre';nz='ip"';iBz='p -w';kBz='NG1"';LCz='wron';KBz='STRI';oz=' "Co';OCz='e tr';Xz=' col';iz='ame"';lBz=' "$F';uz='1="/';yBz='ly C';cz='esul';Yz='lege';VCz=' "**';Oz='il:-';qBz='"\e[';FCz='else';vz='stra';BCz='eted';PBz='unt ';XBz='if [';Uz='ege ';Dz='#"';Gz='Your';Zz=' "==';DBz='lesy';Hz=' Nam';HBz='etc/';Cz='####';dBz=' -L ';mBz='ILE3';fz=' "Na';RBz='    ';CCz=' !!\';ABz='1"';pBz=' -e ';Lz='st_N';SBz=' def';TBz='ault';wBz='cces';mz='ail_';UBz='s   ';tz='FILE';Iz='e:-"';oBz='hen';SCz='[0m"';QBz=' xfs';DCz='e[0m';bBz=']] &';
+eval "$Az$Bz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Dz$z$Az$Ez$Fz$Gz$Hz$Iz$z$Jz$Kz$Lz$Mz$z$Az$z$Az$Ez$Fz$Gz$Nz$Oz$Pz$z$Jz$Qz$Rz$Sz$z$Az$z$Az$Ez$Fz$Tz$Uz$Vz$Wz$z$Jz$Xz$Yz$z$Az$z$Az$Zz$az$az$az$az$az$bz$cz$dz$az$az$az$az$az$az$ez$z$Az$fz$gz$hz$Lz$iz$z$Az$jz$kz$lz$mz$nz$z$Az$oz$pz$qz$rz$sz$z$tz$uz$vz$wz$xz$yz$ABz$z$tz$BBz$vz$wz$xz$yz$CBz$DBz$EBz$FBz$z$tz$GBz$HBz$IBz$JBz$z$KBz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$TBz$UBz$RBz$VBz$RBz$WBz$z$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$fBz$gBz$hBz$iBz$jBz$KBz$kBz$lBz$mBz$nBz$oBz$z$Az$pBz$qBz$rBz$sBz$tBz$uBz$vBz$wBz$xBz$yBz$ACz$BCz$CCz$DCz$ECz$z$FCz$z$Az$pBz$qBz$GCz$HCz$ICz$JCz$KCz$LCz$MCz$NCz$OCz$PCz$QCz$RCz$SCz$TCz$z$UCz$z$Az$VCz$WCz$WCz$WCz$WCz$WCz$WCz$WCz$WCz$WCz$WCz$WCz$WCz$WCz$WCz$XCz"
