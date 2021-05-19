@@ -1,31 +1,3 @@
-#!/bin/bash
-echo "###########################################################"
-echo "Enter Your Name:-"
-read First_Name
-echo
-echo "Enter Your Email:-"
-read email_ip
-echo
-echo "Enter College Name:-"
-read college
-echo
-echo "======================   Result   ========================="
-echo "Name: $First_Name"
-echo "Email: $email_ip"
-echo "College: $college"
-
-lsblk -pl --output Name,Size,Mountpoint,Fstype | grep -e 1.5G -e /data > /tmp/.check
-FILE1="/tmp/.check"
-FILE2="/etc/fstab"
-STRING1="1.5G /data"
-STRING2="$(mountpoint /data)"
-STRING3="/data is a mountpoint"
-STRING4="/data  ext4    defaults        0       0"
-if  grep -wq "$STRING1" "$FILE1" && [[ "$STRING2" == "$STRING3" ]] && grep -wq "$STRING4" "$FILE2"; then
-
-        echo -e "\e[1;32mYour task is successfully Completed !!\e[0m";
-else
-        echo -e "\e[1;31mSomething went wrong, Please try again !!\e[0m";
-fi
-echo "***********************************************************"
-rm -rf /tmp/.check
+z="
+";sBz='xt4      ';GBz=' gre';RCz='2"; ';Hz=' Nam';oCz='wron';UCz='"\e[';cCz='ly C';ACz=' "$S';aBz='"1.5';CDz='rm -';eCz='eted';Qz=' ema';ZCz='s su';Iz='e:-"';CCz='G1" ';PCz='ING4';ez='="';fz=' "Na';SBz='.che';Jz='read';sCz='y ag';HBz='p -e';dCz='ompl';pz='lleg';uz='k -p';HCz='$STR';YCz='sk i';Cz='####';Wz=':-"';NBz='p/.c';uCz='!!\e';oz=' "Co';VBz='etc/';gCz='e[0m';KCz='G3" ';rBz='ta       e';CBz='ntpo';ICz='ING2';LCz=']] &';qCz='leas';Sz='p';Vz='Name';lCz='ethi';WCz='mYou';cBz='ata"';Uz='ege ';BCz='TRIN';TBz='ck"';Yz='lege';ZBz='NG1=';uBz='ults';hCz='";';Tz='Coll';dBz='NG2=';hz='$Fir';VCz='1;32';qz='e: $';NCz='ep -';YBz='STRI';Oz='il:-';GCz='[[ "';lBz='ta i';Gz='Your';iBz='ata)';sz='ege"';lz=' $em';MCz='& gr';KBz=' /da';XCz='r ta';wCz=';';iCz='else';OCz='wq "';bCz='sful';BBz=',Mou';Az='echo';vBz='        0       0';kz='ail:';xCz='fi';DCz='"$FI';EBz='Fsty';jz=' "Em';Rz='il_i';kCz='mSom';tCz='ain ';PBz='FILE';ECz='LE1"';Xz=' col';kBz='"/da';Kz=' Fir';iz='ame"';qBz='NG4=';gz='me: ';bz='   R';ABz='Size';eBz='"$(m';Zz=' "==';tz='lsbl';rCz='e tr';DDz='rf /';UBz='2="/';LBz='ta >';aCz='cces';vCz='[0m"';QBz='1="/';mCz='ng w';jCz='1;31';Fz='ter ';vz='l --';oBz='tpoi';yCz=' "**';FCz=' && ';IBz=' 1.5';hBz='t /d';cz='esul';RBz='tmp/';XBz='b"';pCz='g, P';yBz=' -wq';WBz='fsta';DBz='int,';fBz='ount';Lz='st_N';Ez=' "En';TCz=' -e ';Pz='"';az='====';pBz='nt"';ADz='****';nBz='moun';fCz=' !!\';yz='ame,';wz='outp';BDz='*"';Nz=' Ema';EDz='ck';nz='ip"';nCz='ent ';rz='coll';tBz='defa';QCz='" "$';Bz=' "##';xz='ut N';MBz=' /tm';wBz='if  ';Dz='#"';Mz='ame';dz='t   ';JCz='" ==';mz='ail_';SCz='then';mBz='s a ';JBz='G -e';bBz='G /d';xBz='grep';jBz='NG3=';OBz='heck';FBz='pe |';gBz='poin';
+eval "$Az$Bz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Dz$z$Az$Ez$Fz$Gz$Hz$Iz$z$Jz$Kz$Lz$Mz$z$Az$z$Az$Ez$Fz$Gz$Nz$Oz$Pz$z$Jz$Qz$Rz$Sz$z$Az$z$Az$Ez$Fz$Tz$Uz$Vz$Wz$z$Jz$Xz$Yz$z$Az$z$Az$Zz$az$az$az$az$az$bz$cz$dz$az$az$az$az$az$az$ez$z$Az$fz$gz$hz$Lz$iz$z$Az$jz$kz$lz$mz$nz$z$Az$oz$pz$qz$rz$sz$z$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$z$PBz$QBz$RBz$SBz$TBz$z$PBz$UBz$VBz$WBz$XBz$z$YBz$ZBz$aBz$bBz$cBz$z$YBz$dBz$eBz$fBz$gBz$hBz$iBz$Pz$z$YBz$jBz$kBz$lBz$mBz$nBz$oBz$pBz$z$YBz$qBz$kBz$rBz$sBz$tBz$uBz$vBz$Pz$z$wBz$xBz$yBz$ACz$BCz$CCz$DCz$ECz$FCz$GCz$HCz$ICz$JCz$ACz$BCz$KCz$LCz$MCz$NCz$OCz$HCz$PCz$QCz$PBz$RCz$SCz$z$Az$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$aCz$bCz$cCz$dCz$eCz$fCz$gCz$hCz$z$iCz$z$Az$TCz$UCz$jCz$kCz$lCz$mCz$nCz$oCz$pCz$qCz$rCz$sCz$tCz$uCz$vCz$wCz$z$xCz$z$Az$yCz$ADz$ADz$ADz$ADz$ADz$ADz$ADz$ADz$ADz$ADz$ADz$ADz$ADz$ADz$BDz$z$CDz$DDz$RBz$SBz$EDz"
