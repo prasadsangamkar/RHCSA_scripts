@@ -1,25 +1,4 @@
-#!/bin/bash
-echo "###########################################################"
-echo "Enter Your Name:-"
-read First_Name
-echo
-echo "Enter Your Email:-"
-read email_ip
-echo
-echo "Enter College Name:-"
-read college
-echo
-echo "======================   Result   ========================="
-echo "Name: $First_Name"
-echo "Email: $email_ip"
-echo "College: $college"
-FILE1="/var/spool/cron/root"
-STRING1="*/2    00      10      *       *       /usr/bin/echo \"This is test\" >> /tmp/cron_example"
-STRING2="*/2 00 10 * * /usr/bin/echo \"This is test\" >> /tmp/cron_example"
-if  grep -Fq "$STRING1" "$FILE1" || grep -Fq "$STRING2" "$FILE1" ; then
+z="
+";WBz=' * /';fz=' "Na';GCz='g, P';lz=' $em';Zz=' "==';bz='   R';tz='FILE';dBz='"$FI';JCz='y ag';az='====';yBz='else';rBz='sful';Jz='read';IBz='bin/';KBz='his ';dz='t   ';PBz='p/cr';QBz='on_e';Dz='#"';sBz='ly C';DBz='"*/2';UBz=' 00 ';NBz='" >>';rz='coll';gz='me: ';DCz='ng w';TBz='NG2=';vBz=' !!\';pz='lleg';iBz='hen';Pz='"';Sz='p';jBz=' -e ';qz='e: $';FCz='wron';Qz=' ema';Az='echo';LCz='!!\e';RBz='xamp';Kz=' Fir';Hz=' Nam';sz='ege"';hz='$Fir';gBz='G2" ';Cz='####';ZBz=' -Fq';yz='on/r';Yz='lege';OBz=' /tm';cz='esul';SBz='le"';Lz='st_N';OCz='fi';jz=' "Em';xz='l/cr';BBz='STRI';ACz='1;31';pBz='s su';iz='ame"';oBz='sk i';VBz='10 *';Rz='il_i';vz='var/';PCz=' "**';MCz='[0m"';Ez=' "En';KCz='ain ';Wz=':-"';Vz='Name';tBz='ompl';Fz='ter ';FBz='10  *';kBz='"\e[';LBz='is t';EBz='  00      ';RCz='*"';Mz='ame';eBz='LE1"';Uz='ege ';xBz='";';fBz=' || ';Oz='il:-';NCz=';';QCz='****';mz='ail_';kz='ail:';Nz=' Ema';uBz='eted';ABz='oot"';CBz='NG1=';bBz='TRIN';uz='1="/';CCz='ethi';HBz='usr/';ez='="';YBz='grep';Tz='Coll';nBz='r ta';Gz='Your';BCz='mSom';wz='spoo';XBz='if  ';ICz='e tr';Xz=' col';oz=' "Co';lBz='1;32';mBz='mYou';MBz='est\';nz='ip"';wBz='e[0m';cBz='G1" ';GBz='      *       /';qBz='cces';Bz=' "##';hBz=' ; t';aBz=' "$S';HCz='leas';ECz='ent ';JBz=' \"T';Iz='e:-"';
+eval "$Az$Bz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Dz$z$Az$Ez$Fz$Gz$Hz$Iz$z$Jz$Kz$Lz$Mz$z$Az$z$Az$Ez$Fz$Gz$Nz$Oz$Pz$z$Jz$Qz$Rz$Sz$z$Az$z$Az$Ez$Fz$Tz$Uz$Vz$Wz$z$Jz$Xz$Yz$z$Az$z$Az$Zz$az$az$az$az$az$bz$cz$dz$az$az$az$az$az$az$ez$z$Az$fz$gz$hz$Lz$iz$z$Az$jz$kz$lz$mz$nz$z$Az$oz$pz$qz$rz$sz$z$tz$uz$vz$wz$xz$yz$ABz$z$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$Az$JBz$KBz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$z$BBz$TBz$DBz$UBz$VBz$WBz$HBz$IBz$Az$JBz$KBz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$z$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$fBz$YBz$ZBz$aBz$bBz$gBz$dBz$eBz$hBz$iBz$z$Az$jBz$kBz$lBz$mBz$nBz$oBz$pBz$qBz$rBz$sBz$tBz$uBz$vBz$wBz$xBz$z$yBz$z$Az$jBz$kBz$ACz$BCz$CCz$DCz$ECz$FCz$GCz$HCz$ICz$JCz$KCz$LCz$MCz$NCz$z$OCz$z$Az$PCz$QCz$QCz$QCz$QCz$QCz$QCz$QCz$QCz$QCz$QCz$QCz$QCz$QCz$QCz$RCz"
 
-        echo -e "\e[1;32mYour task is successfully Completed !!\e[0m";
-else
-        echo -e "\e[1;31mSomething went wrong, Please try again !!\e[0m";
-fi
-echo "***********************************************************"
