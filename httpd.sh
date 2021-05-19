@@ -1,23 +1,3 @@
-#!/bin/bash
-echo "###########################################################"
-echo "Enter Your Name:-"
-read First_Name
-echo
-echo "Enter Your Email:-"
-read email_ip
-echo
-echo "Enter College Name:-"
-read college
-echo
-echo "======================   Result   ========================="
-echo "Name: $First_Name"
-echo "Email: $email_ip"
-echo "College: $college"
-ps cax | grep httpd >/dev/null
-FILE1=/var/www/html/index.html
-if [ $? -eq 0 ] && [[ -f $FILE1 ]] && grep -iq "It Work's" "$FILE1" && curl -s localhost >/dev/null ; then
-  echo -e "\e[1;32mYour task is successfully Completed !!\e[0m";
-else
-  echo -e "\e[1;31mSomething went wrong, Please try again !!\e[0m";
-fi
-echo "***********************************************************"
+z="
+";NBz='0 ] ';QCz='fi';xBz=' !!\';CBz='FILE';lBz=' -e ';FBz='ww/h';Az='echo';xz='tpd ';XBz='ork'\''';Nz=' Ema';iz='ame"';vBz='ompl';HCz='wron';Xz=' col';WBz='It W';cz='esul';jBz='; th';MBz='-eq ';ez='="';YBz='s" "';FCz='ng w';ABz='v/nu';mBz='"\e[';KBz='if [';uBz='ly C';yz='>/de';Kz=' Fir';JCz='leas';TBz='& gr';Wz=':-"';Sz='p';ACz='";';OBz='&& [';ZBz='$FIL';Uz='ege ';JBz='ml';sBz='cces';nz='ip"';TCz='*"';ECz='ethi';oz=' "Co';Bz=' "##';LCz='y ag';EBz='ar/w';oBz='mYou';Zz=' "==';yBz='e[0m';Hz=' Nam';Tz='Coll';tz='ps c';NCz='!!\e';Mz='ame';VBz='iq "';lz=' $em';UBz='ep -';OCz='[0m"';uz='ax |';qBz='sk i';Lz='st_N';mz='ail_';LBz=' $? ';Vz='Name';RCz=' "**';KCz='e tr';hBz='ev/n';kz='ail:';Jz='read';BCz='else';wBz='eted';vz=' gre';pBz='r ta';HBz='inde';cBz='url ';Ez=' "En';GBz='tml/';qz='e: $';CCz='1;31';RBz='LE1 ';Dz='#"';jz=' "Em';DBz='1=/v';QBz=' $FI';MCz='ain ';Cz='####';dz='t   ';kBz='en';SBz=']] &';gBz=' >/d';gz='me: ';wz='p ht';GCz='ent ';az='====';IBz='x.ht';nBz='1;32';dBz='-s l';bBz='&& c';bz='   R';fz=' "Na';Fz='ter ';eBz='ocal';rz='coll';hz='$Fir';aBz='E1" ';BBz='ll';iBz='ull ';Pz='"';fBz='host';sz='ege"';tBz='sful';SCz='****';Rz='il_i';rBz='s su';Yz='lege';ICz='g, P';Qz=' ema';DCz='mSom';PCz=';';Gz='Your';PBz='[ -f';Oz='il:-';Iz='e:-"';pz='lleg';
+eval "$Az$Bz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Cz$Dz$z$Az$Ez$Fz$Gz$Hz$Iz$z$Jz$Kz$Lz$Mz$z$Az$z$Az$Ez$Fz$Gz$Nz$Oz$Pz$z$Jz$Qz$Rz$Sz$z$Az$z$Az$Ez$Fz$Tz$Uz$Vz$Wz$z$Jz$Xz$Yz$z$Az$z$Az$Zz$az$az$az$az$az$bz$cz$dz$az$az$az$az$az$az$ez$z$Az$fz$gz$hz$Lz$iz$z$Az$jz$kz$lz$mz$nz$z$Az$oz$pz$qz$rz$sz$z$tz$uz$vz$wz$xz$yz$ABz$BBz$z$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$z$KBz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$fBz$gBz$hBz$iBz$jBz$kBz$z$Az$lBz$mBz$nBz$oBz$pBz$qBz$rBz$sBz$tBz$uBz$vBz$wBz$xBz$yBz$ACz$z$BCz$z$Az$lBz$mBz$CCz$DCz$ECz$FCz$GCz$HCz$ICz$JCz$KCz$LCz$MCz$NCz$OCz$PCz$z$QCz$z$Az$RCz$SCz$SCz$SCz$SCz$SCz$SCz$SCz$SCz$SCz$SCz$SCz$SCz$SCz$SCz$TCz"
